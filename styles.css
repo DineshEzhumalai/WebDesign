@@ -1,53 +1,99 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 *{
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
 }
-nav
+.wrapper
 {
-   position: fixed;
-   top: 0;
-   background-color:#3a3a3a;
-   width:100%;
-   height: 60px;
-   color: white;
-   box-shadow: 0 10px 8px grey;
+  background: url("/hellobg.jpg") ;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-li
+img
 { 
-  display: inline-block;
-  padding: 0 20px;
-  font-size: larger;
-  font-weight: bolder;
-  text-transform: uppercase;
-  height: 60px;
-  line-height: 60px;
+  height: 34px;
+  width: 234px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+nav 
+{
+  height: 80px ;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
 
 }
-li:hover
+div nav ul
 {
-   background-color: black;
+   float: right;
 }
-footer
+nav ul  li 
 {
-  position: fixed;
-  height: 60px;
-  width: 100%;
-  bottom: 0;
-  line-height:60px;
-  background-color:#3a3a3a;
+   display: inline-block;
+   font-family:'Bebas Neue',cursive;
+   line-height: 80px;
+   margin-right: 150px;
+   font-size: larger;
+   font-size: 23px;
+}
+.navbar ul  li a
+{
+  text-decoration: none;
+  padding: 5px 16px;
   color: white;
-  text-align: center;
-  font-weight: bolder;
 }
-h1{
-  margin-top: 300px;
-  font-size: 1.5rem ;
-  text-transform:capitalize;
+.navbar ul li a.active
+{
+  background: red;
+  border: 2px solid red;
 }
-a{
-  margin-top: 300px;
+.navbar ul  li :hover 
+{
+  background: red;
+  border: 2px solid red;
+}
+.wrapper div
+ {
+   position: relative;
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   text-shadow: 5px 6px 7px black ;
+   top: 25%;
+  
+}
+.buttons
+{
+  margin-top: 60px;
+
+
+}
+button
+{
+   padding: 20px 50px;
+   background-color: #1632d1;
+   transform: translate(10);
+   border-radius: 30px ;
+   font-size: large;
+   font-family:'Bebas Neue',cursive;
+   color: white;
+   
+}
+#btn1
+{
+    margin-right: 20px;
+}
+#btn2
+{
+     margin-left: 20px;
+}
+button:hover 
+{
+  background-color: rgb(158, 13, 194);
+
+}
+p
+{
+  margin-top: 20px;
 }
