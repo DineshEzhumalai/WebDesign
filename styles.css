@@ -98,5 +98,7 @@ p
   margin-top: 20px;
 }
 a{
+  font-family:'Bebas Neue',cursive;
   text-decoration:none;
+  color:white;
 }
